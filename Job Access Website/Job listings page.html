@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Job Listings</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="job-listings-container">
+		<header>
+			<h1>Job postings</h1>
+			<input type="search" id="search-bar" placeholder="Search for jobs">
+            <style>
+            body{
+                background-image: url("Background\ 7.jpg");
+            }
+.job-listings-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+#search-bar {
+	width: 50%;
+	padding: 10px;
+	margin: 20px auto;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f0f0f0;
+}
+
+tbody tr:hover {
+	background-color: #f5f5f5;
+}
+
+            </style>
+		</header>
+		<table>
+			<thead>
+				<tr>
+					<th>Job Name</th>
+					<th>Salary</th>
+					<th>Company</th>
+					<th>Applications Needed</th>
+					<th>Skills Required</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Software Engineer</td>
+					<td>$100,000 - $150,000</td>
+					<td>ABC Company</td>
+					<td>5</td>
+					<td>JavaScript, HTML/CSS, React</td>
+				</tr>
+				<tr>
+					<td>Data Scientist</td>
+					<td>$120,000 - $180,000</td>
+					<td>XYZ Corporation</td>
+					<td>3</td>
+					<td>Python, Machine Learning, SQL</td>
+				</tr>
+				<tr>
+					<td>Product Manager</td>
+					<td>$80,000 - $120,000</td>
+					<td>Startup Inc.</td>
+					<td>2</td>
+					<td>Product Development, Marketing, Leadership</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

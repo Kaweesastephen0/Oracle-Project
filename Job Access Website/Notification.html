@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Center</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("Background\ 6.jpg");
+        }
+.notification-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	min-height: calc(100vh - 50px);
+	padding-bottom: 50px; 
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+header li {
+	margin-right: 20px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#clear-btn {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.notification-list {
+	padding: 20px;
+	margin-top: auto; 
+}
+
+.notification-item {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+	width: 100%;
+	height: 50px; 
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="notification-container">
+            <header>
+                <h1>Notification Center</h1>
+                <ul>
+                    <li><a href="#">New Job Posting</a></li>
+                    <li><a href="#">Application Update</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><button id="clear-btn">Clear All</button></li>
+                </ul>
+            </header>
+            <div class="notification-list">
+                
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2023 Notification Center. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

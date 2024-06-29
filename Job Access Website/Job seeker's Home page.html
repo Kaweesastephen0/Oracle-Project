@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("Background\ 4.jpg");
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: normal;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+
+        .footer-info div {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .footer-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .apply-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .apply-section button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .apply-section button:hover {
+            background-color: #0056b3;
+        }
+        .dropdown button {
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Job Access Platform</div>
+        <nav>
+            <ul>
+                <li><a href="Search page.html">Search</a></li>
+                <li><a href="Application status page.html">Application Status</a></li>
+                <li><a href="Job listings page.html">Job Postings</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="Notification.html">Notifications</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Services Provided</a></li>
+                <li><a href="Privacy policy page.html">Privacy Policy</a></li>
+                <li><a href="My profile page.html"><button class="dropbtn">My Profile</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apply-section">
+            <h1>Welcome to Job Access Platform</h1>
+            <p>This site brigdes a gap between job seekers and employers so as to reduce the increasing rates of unmployment</p>
+            <img src="Background 9.jpg" alt="people are at work" width="400" height="300">  <img src="Background 10.jpg"width="400" height="300">
+            <a href="job application form.html"> <button  id="applyButton"  >Apply Now </a></button>
+        </section>
+    </main>
+     
+    <footer>
+        <div class="footer-info">
+            <div>
+                <h3>Contact Information</h3>
+                <p>Address: Kampala Uganda</p>
+                <p>Email: info@groupstephen.com</p>
+                <p>Telephone: 0757779592</p>
+            </div>
+            <div>
+                <h3>Terms and Conditions</h3>
+                <p>Read our terms and conditions </p><a href="#">click here.</a>
+            </div>
+            <div>
+                <h3>Team Members</h3>
+                <ul style="text-align: left;">
+                    <li>Kaweesa Stephen (Group Leader)</li>
+                    <li>Twinomugisha Patience (secretary)</li>
+                    <li>Kyeyune Alex</li>
+                    <li>Kazibwe Vianney</li>
+                    <li>Lukyamuzi Joseph</li>
+                    <li>Ssenabulya Shaurat</li>
+                    <li>Giramiya Comfort Maureen</li>
+                    <li>Longoli Christine</li>
+                    <li>Kiyimba Henry</li>
+                    <li>Kamukama Anthony</li>
+                    <li>Byesizibwe Davis</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('applyButton').addEventListener('click', function() {
+            alert('Apply button clicked!');
+        });
+    </script>
+</body>
+</html>
